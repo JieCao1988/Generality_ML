@@ -1,0 +1,17 @@
+List of code files with key functionality and results
+1. Data file
+    There are 9 original data file and 9 processed data file
+2. Data processing file: 
+    Figure 2
+3. Field data analytics: 
+4. Compare data splitting:
+    Figure 3
+5. Well scale generality
+    5.1 Forward prediction capacity (testing window size)
+    5.2 Data selection for training (training window size)
+    5.3 **combination two window sizes
+    
+    
+6. Field scale generality
+    6.1 Planning phase
+    6.2 Real-time operational phase (Continual learning)
