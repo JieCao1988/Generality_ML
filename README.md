@@ -1,8 +1,7 @@
 # Generality_ML
 This works aims to evaluate the generality of machine learning models for ROP prediction.
 
-In general, the proposed models are mostly with high accuracy with given dataset, while may not be applicable to other wells outside the dataset. This means that the generality of the model is not well validated, resulting in less persuasive and not useful models.
-The cross evaluation is implemented in well scale and in field scale to validate the generality of ML models for ROP prediction.
+In general, the previous proposed models are mostly with high accuracy with given dataset, while might not be applicable to other wells. This means that the generality of the model is not well validated, resulting in less persuasive and not useful models.
 
 For data splitting, we choose designated training+validation and unseen testing datasets. 
 In the well scale, we assume that the bit is at a certain point of depth. The data of drilled portion is assigned to the training and validation (with radom split into 70 and 30%, respectively) and a small undrilled portion ahead of the bit. 
